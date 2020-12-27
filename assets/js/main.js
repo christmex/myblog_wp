@@ -12,26 +12,4 @@
 	// WOW JS
 	new WOW().init();
 
-
-	// parallax effect
-	// $(window).scroll(function(){
-
-	// 	if ($(window).width() >= 768){	
-	// 		var wscroll = $(this).scrollTop() - 1230;
-	
-	// 		$('.img img').css({
-	// 			'transform' : 'translate(0px, -'+wscroll/6+'%)'
-	// 		});
-	
-	// 		$('.career-box-fly-1').css({
-	// 			'transform' : 'translate(0px, -'+wscroll/8+'%)'
-	// 		})
-	
-	// 		$('.career-box-fly-2').css({
-	// 			'transform' : 'translate(0px, -'+wscroll/10+'%)'
-	// 		})
-	// 	}	
-		
-	// });
-
 })(jQuery);

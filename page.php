@@ -10,8 +10,7 @@
         <?php wp_head(); ?>
     </head>
     <body>
-    <ul class="circles">
-        <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
-    </ul>
-
-    <?php locate_template('sections/menu-web.php', true);?>
+    <?php the_content() ?>
+    <?php  wp_footer(); ?>
+</body>
+</html>

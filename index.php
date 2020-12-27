@@ -1,9 +1,4 @@
 <?php get_header(); ?>
-    <ul class="circles">
-        <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
-    </ul>
-
-    <?php locate_template('sections/menu-web.php', true);?>
         
     <!-- HEADER -->
     <?php locate_template('sections/header.php', true);?>
